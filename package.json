@@ -1,0 +1,16 @@
+{
+  "name": "fluent-object",
+  "version": "1.0.0",
+  "description": "Create fluent object, by the magic of Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fluent-object",
+    "object",
+    "proxy"
+  ],
+  "author": "CodinCat",
+  "license": "MIT"
+}
