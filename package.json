@@ -1,6 +1,6 @@
 {
   "name": "fluent-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create fluent object, by the magic of Proxy",
   "main": "index.js",
   "repository": {

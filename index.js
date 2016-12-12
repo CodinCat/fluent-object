@@ -3,6 +3,7 @@ module.exports = function createFluentObject (obj, customCreator) {
 
   return new Proxy(obj, {
     get (target, key) {
+      if (key === 'toJSON') return target
       if (typeof target[key] === 'undefined') {
         var newObject = typeof customCreator === 'function'
           ? customCreator()
