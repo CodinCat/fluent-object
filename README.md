@@ -11,6 +11,8 @@ obj.a.b.c.d = 'hi'
 
 This simple script can help you to create a `fluent object`
 
+`npm install fluent-object`
+
 ```js
 import createFluentObject from 'fluent-object'
 
