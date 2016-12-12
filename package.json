@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Create fluent object, by the magic of Proxy",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodinCat/fluent-object.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
