@@ -61,7 +61,7 @@ obj1.another.att = 100
 }
 ```
 
-note: the original object attributes of your target object will not be convert to proxies.
+note: the object attributes of your source object will not be converted to proxies.
 
 ```js
 const obj2 = createFluentObject({
@@ -74,7 +74,7 @@ obj2.foo.a.b // Cannot read property 'b' of undefined
 
 ```
 
-`customCreator` is a function that will be used to create a new extended objects
+`customCreator` is a function that will be used to create a new extended objects  
 **`customCreator(): object`**
 
 ```js
